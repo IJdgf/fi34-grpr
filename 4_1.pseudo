@@ -1,0 +1,6 @@
+int i = 0
+Solange (i < 4):
+    Ausgeben "Hallo"
+    i++
+Ende
+

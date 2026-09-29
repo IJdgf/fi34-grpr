@@ -1,0 +1,19 @@
+# language: de
+
+int antwort
+Ausgeben "Bitte 1 oder 2 eingeben"
+Wenn (antwort == 2): 
+    Ausgeben "Auswahl: 2" 
+Sonst
+    Ausgeben "Auswahl: 1"
+Ende Wenn
+
+Solange (antwort >1):
+    Eingeben antwort
+Ende Solange
+
+Für i von 1 bis 10:
+    Ausgeben i
+Ende Für
+
+

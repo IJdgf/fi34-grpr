@@ -1,0 +1,12 @@
+# language: de
+
+double zahl 
+
+Ausgeben "Bitte eine Zahl eingeben"
+
+Eingeben zahl 
+
+zahl = zahl*2
+
+Ausgeben zahl 
+

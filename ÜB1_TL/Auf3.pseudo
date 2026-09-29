@@ -1,0 +1,11 @@
+int zahl, erg
+Ausgeben "Bitte eine Zahl eingeben"
+Eingeben zahl 
+
+Wenn (zahl%2 == 0) Dann:
+    erg = zahl * 10
+Sonst:
+    erg = zahl * 5
+Ende
+
+Ausgeben erg

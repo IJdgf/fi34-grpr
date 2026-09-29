@@ -1,0 +1,87 @@
+# Auf_1
+int zahl=0, summe=0, anzahl = 0
+
+Solange summe <= 100:
+    Ausgeben "Bitte geben Sie eine Ganzzahl ein"
+    Eingeben zahl 
+    summe += zahl  # summe = summe + zahl 
+    anzahl++
+Ende
+Ausgeben "Die errechnete Summe ist " + summe
+Ausgeben "Anzahl eingegebener Zahlen: " + anzahl
+
+
+# Auf_2
+int zahl = 0
+Wiederholen:
+    Ausgeben "Bitte eine 4-stellige Ganzzahl eingeben:"
+    Eingeben zahl
+    Wenn zahl < 1000:
+        Ausgeben "Falsche Eingabe, bitte wiederholen"
+    Ende
+Solange zahl < 1000 
+Ausgeben "Ok"    
+
+# Auf_2_2
+int zahl = 0
+boolean ist4Stellig = false
+Wiederholen:
+    Ausgeben "Bitte eine 4-stellige Ganzzahl eingeben:"
+    Eingeben zahl
+    ist4Stellig = zahl > 999 
+    Wenn !ist4Stellig:
+        Ausgeben "Falsche Eingabe, bitte wiederholen"
+    Ende
+Solange !ist4Stellig
+Ausgeben "Ok"    
+
+# Auf_2_3
+int zahl = 0, flag = 0
+Wiederholen:
+    Wenn flag != 0:
+        Ausgeben "Falsche Eingabe, bitte wiederholen"
+    Ende
+    Ausgeben "Bitte eine 4-stellige Ganzzahl eingeben:"
+    Eingeben zahl
+    flag = 1
+Solange zahl < 1000 
+Ausgeben "Ok"  
+
+
+# Auf_3
+int zahl = 0
+boolean istGut = false
+Wiederholen:
+    Ausgeben "Bitte eine 4...8-stellige Ganzzahl eingeben:"
+    Eingeben zahl
+    istGut = zahl > 999 und zahl < 100_000_000
+    Wenn !istGut:
+        Ausgeben "Falsche Eingabe, bitte wiederholen"
+    Sonst:
+        Ausgeben "Ok" 
+    Ende
+Solange !istGut
+
+# Auf_4
+int zahl1=0, zahl2=0
+boolean passtSchon = false
+Solange !passtSchon Tun:
+    Ausgeben "Bitte eine Zahl < 1000 eingeben: "
+    Eingeben zahl1
+    Ausgeben "Bitte eine Zahl > 1000 eingeben: "
+    Eingeben zahl2
+    passtSchon = zahl1 < 1000 und zahl2 > 1000
+Ende
+Ausgeben zahl1 + zahl2
+
+# Auf_5
+int divident = 0, divisor=0
+Ausgeben "Bitte den Divident eingeben: "
+Eingeben divident
+
+Solange divisor == 0:
+    Ausgeben "Bitte den Divisor != 0 eingeben: "
+    Eingeben divisor
+Ende
+
+Ausgeben "Der Quotient: " + divident/divisor

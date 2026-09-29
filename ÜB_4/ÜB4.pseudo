@@ -1,0 +1,79 @@
+#  Ü2
+double laenge = 0, breite = 0, preis = 0
+int wahl = 0
+Ausgeben "Bitte die Länge eingeben"
+Eingeben laenge
+Ausgeben "Bitte die Breite eingeben"
+Eingeben breite
+Ausgeben "Bitte wählen Sie:"
+Ausgeben "1 - Laminat\n2 - Fliesen\n
+3 - Industrieteppich\n4 - Edelflauschteppich
+\n0 - Standardteppich"
+Eingeben wahl
+
+Auswahl (wahl)
+    Fall 1: 
+        preis = 25
+    Fall 2:
+        preis = 42
+    Fall 3:
+        preis = 38
+    Fall 4:
+        preis = 38
+    Standard:
+        preis = 23
+Ende
+
+Ausgeben "Ihr Betrag: " + laenge * breite * preis
+
+#  Ü3
+
+int anzahl = 0 , zahl = 0
+String jaNein = "n"
+Wiederholen:
+    Ausgeben "Bitte eine Ganzzahl eingeben"
+    Eingeben zahl
+    Ausgeben zahl
+    anzahl ++
+    Ausgeben "Weiter? Y - Ja, N - Nein"
+    Eingeben jaNein
+Solange (jaNein = "y" oder jaNein = "Y")
+Ausgeben anzahl
+
+
+# Ü4_1
+int anzahl = 0, summe = 0, produkt = 1, i = 0
+double zahl
+
+Ausgeben "WIe viele Zahlen möchten Sie eingeben?"
+Eingeben anzahl
+
+Solange i < anzahl:
+    Ausgeben: "Bitte eine Zahl eingeben"
+    Eingeben zahl
+    summe += zahl 
+    produkt *= zahl
+    i++
+Ende
+
+Ausgeben "Summe: " + summe + "\nProdukt: " + produkt
+
+# Ü4_2
+int summe = 0, produkt = 1, zahl=0
+char jaNein = 'n'
+
+Wiederholen:
+    Ausgeben "Bitte eine Ganzzahl eingeben"
+    Eingeben zahl
+    summe += zahl 
+    produkt *= zahl
+    Ausgeben "Weiter? Y - Ja, N - Nein"
+    Eingeben jaNein
+Solange (jaNein = 'y' oder jaNein = 'Y') 
+
+Ausgeben summe
+Ausgeben produkt
+
+
+
+

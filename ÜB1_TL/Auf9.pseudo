@@ -1,0 +1,16 @@
+# str eingabe
+Ausgeben "Wählen Sie: \nn - Norden, \ns - Süden, \no - Osten, \nw - Western"
+Eingeben eingabe
+
+Auswahl eingabe:
+    Fall "n":
+        Ausgeben "Norden"
+    Fall "s": 
+        Ausgeben "Süden"
+    Fall "o": 
+        Ausgeben "Osten"
+    Fall "w":
+        Ausgeben "Westen"
+    Sonst:
+        Ausgeben "Falsche Eingabe"
+Ende

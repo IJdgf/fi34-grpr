@@ -1,0 +1,96 @@
+#5
+int zahl, maxx, antwort = 0
+
+Ausgeben "Bitte eine Ganzzahl eingeben!"
+Eingeben zahl
+maxx = zahl
+
+Ausgeben "Weiter? 1 = ja, !1 = !Ja"
+Eingeben  antwort
+
+Solange (antwort == 1):
+    Ausgeben "Bitte eine Ganzzahl eingeben!"
+    Eingeben zahl
+    wenn (zahl > maxx):
+        maxx = zahl
+    Ende
+    Ausgeben "Weiter? 1 = ja, !1 = !Ja"
+    Eingeben  antwort
+Ende
+
+Ausgeben maxx
+
+#  5_2
+int zahl, maxx, antwort = 1
+boolean erstmal = true
+
+Solange (antwort == 1):
+    Ausgeben "Bitte eine Ganzzahl eingeben!"
+    Eingeben zahl
+
+    Wenn erstmal:
+        maxx = zahl
+    Ende    
+    erstmal = false
+    
+    wenn (zahl > maxx):
+        maxx = zahl
+    Ende
+    Ausgeben "Weiter? 1 = ja, !1 = !Ja"
+    Eingeben  antwort
+Ende
+
+Ausgeben maxx
+
+#6
+int zahl, maxx, minn, antwort = 1
+boolean erstmal = true
+
+Solange (antwort == 1):
+    Ausgeben "Bitte eine Ganzzahl eingeben!"
+    Eingeben zahl
+
+    Wenn erstmal:
+        maxx = zahl
+        minn = zahl
+        erstmal = false
+    Ende    
+    
+    wenn (zahl > maxx):
+        maxx = zahl
+    Ende
+
+    Wenn (zahl < minn):
+        minn = zahl
+    Ende
+
+    Ausgeben "Weiter? 1 = ja, !1 = !Ja"
+    Eingeben  antwort
+Ende
+
+Ausgeben maxx
+Ausgeben minn
+
+#7
+int anzahl, i = 2, a = 0, b = 1, c
+String str = ""
+
+Ausgeben "Bitte Anzahl > 2 eingeben"
+Eingeben anzahl
+#Ausgeben a
+str = str + a
+#Ausgeben b
+str = str + b
+Solange i < anzahl:
+    c = a + b
+    #Ausgeben c
+    str = str + c
+    a = b 
+    b = c
+    i++
+Ende
+Ausgabe str
+
+
+
+

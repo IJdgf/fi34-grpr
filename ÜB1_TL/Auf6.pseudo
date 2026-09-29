@@ -1,0 +1,19 @@
+double grundgehalt = 3000, umsatz = 0, bonus = 0
+
+Ausgeben "Bitte Umsatz eingeben: "
+Eingeben umsatz
+
+Wenn umsatz > 100000 Dann:
+    bonus = 1000
+Ende
+
+Ausgeben "Bruttolohn: " + (grundgehalt + bonus)
+
+
+
+
+
+
+
+
+

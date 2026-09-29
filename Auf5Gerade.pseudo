@@ -1,0 +1,53 @@
+# 5.1
+Funktion geradePruefen() -> int:
+    int zahl
+    Ausgeben "Bitte eine ganze Zahl eingeben"
+    Eingeben zahl 
+    Wenn (zahl % 2 == 0):
+        Ausgeben "Gerade"
+    Sonst:
+        Ausgeben "Ungerade"
+    Ende Wenn
+    Zurückgeben  zahl
+Ende Funktion
+
+# 5.2
+int i = 0
+
+Solange i < 5:
+    geradePruefen()
+    i++
+Ende
+
+# 5.3
+int wieOft, i = 0
+Ausgeben "Wie oft wiederholen wir?"
+Eingeben wieOft 
+
+Solange i < wieOft:
+    geradePruefen()
+    i++
+Ende
+
+# 7
+int antwort = 0
+
+Wiederholen:
+    geradePruefen()
+    Ausgeben "Weiter? 1 = Ja, 0 = Nein"
+    Eingeben antwort
+Solange antwort == 1
+
+# 6
+int a = 0
+Wiederholen:
+    a = geradePruefen()
+Solange a != 0
+
+
+
+
+
+    
+
+

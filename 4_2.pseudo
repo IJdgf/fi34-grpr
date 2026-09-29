@@ -1,0 +1,22 @@
+int i= 0, n 
+
+Ausgeben "Bitte eine Zahl eingeben"
+Eingeben n 
+
+Solange i < n 
+    Ausgeben "Hallo"
+    i++
+Ende
+
+
+# Variante 2:
+
+int  n 
+
+Ausgeben "Bitte eine Zahl eingeben"
+Eingeben n 
+
+Solange n > 0 
+    Ausgeben "Hallo"
+    n = n - 1
+Ende

@@ -1,0 +1,8 @@
+Ausgeben "Bitte4 eine ganze Zahl eingeben!"
+int zahl 
+Eingeben zahl
+Wenn (zahl >= 0):
+    Ausgeben "Positiv!"
+Sonst: 
+    Ausgeben "Negativ!"
+Ende

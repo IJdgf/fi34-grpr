@@ -1,0 +1,14 @@
+double umsatz=0, rabatt=0, betrag=0
+
+Ausgeben "Bitte Umsatz eingeben:"
+Eingeben umsatz
+
+Wenn umsatz > 500 Dann:
+    rabatt = 0.1
+Sonst Wenn umsatz > 100 Dann:
+        rabatt = 0.05
+Ende
+
+betrag = umsatz - umsatz * rabatt
+
+Ausgeben betrag

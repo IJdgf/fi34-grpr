@@ -1,0 +1,8 @@
+int i = 0
+Ausgeben "Bitte eine ganze Zahl eingeben"
+Eingeben i
+
+Solange i < 11 Tun:
+    Ausgeben i
+    i++
+Ende

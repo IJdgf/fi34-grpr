@@ -1,0 +1,17 @@
+int zahl = 0
+
+Ausgeben "Bitte eine ganze Zahl zw. 1000 und 9999 eingeben: "
+Eingeben "Zahl: ", zahl
+zahl = Ganzzahl(zahl)
+
+Wenn zahl >= 1000 Und zahl <= 9999  Dann:
+    Wenn zahl % 5 == 0 Dann:
+        Ausgeben "Durch 5 teilbar"
+    Ende
+
+    Wenn zahl % 7 == 0 Dann:
+        Ausgeben "Durch 7 teilbar"
+    Ende
+Sonst:
+    Ausgeben "Falsche Eingabe!"
+Ende

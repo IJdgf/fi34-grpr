@@ -1,0 +1,11 @@
+double zahl1, zahl2
+
+Ausgeben "Bitte die erste Zahl eingeben:"
+Eingeben zahl1 
+
+Ausgeben "Bitte die zweite Zahl eingeben:"
+Eingeben zahl2
+
+Ausgeben zahl1*zahl2
+
+

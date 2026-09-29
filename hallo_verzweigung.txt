@@ -1,0 +1,15 @@
+Ausgabe: "Sprechen Sie Deutsch 1 = ja, 0 = nein?";
+int antwort;
+Eingabe: antwort;
+wenn (antwort == 1) {
+    Ausgabe: "Servus!";
+} sonst {
+    wenn (antwort == 0) {
+        Ausgabe: "Dann lerne es!";
+    } sonst {
+        Ausgabe: "Bist du dumm?"; 
+    }
+}
+
+
+

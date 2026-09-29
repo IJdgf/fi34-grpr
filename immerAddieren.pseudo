@@ -1,0 +1,13 @@
+int a, summe = 0
+Wiederholen:
+    Ausgeben "Bitte eine Zahl eingeben!"
+    Eingeben a
+    summe = summe + a
+Solange (a != 0)
+
+Ausgeben summe
+
+
+
+
+

@@ -1,0 +1,15 @@
+Ausgeben "Bitte eine ganze Zahl eingeben!"
+# int zahl 
+# zahl ist eine Ganzzahl
+Eingeben zahl
+zahl = Ganzzahl(zahl)
+Wenn (zahl > 0):
+    Ausgeben "Positiv!"
+Sonst Wenn (zahl < 0):
+    Ausgeben "Negativ!"
+Sonst:
+    Ausgeben "Gleich 0"
+Ende
+
+
+

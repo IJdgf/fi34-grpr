@@ -1,0 +1,24 @@
+int zahl1, zahl2, wahl
+
+Ausgeben "Bitte die Zahl 1 eingeben: "
+Eingeben zahl1
+Ausgeben "Bitte die Zahl 1 eingeben: "
+Eingeben zahl2
+
+Ausgeben "Bitte wählen: \n1 - Summe, \n2 - Division, 
+\n3 - Modulo, \n4 - Beenden"
+
+Eingeben wahl 
+
+Auswahl wahl:
+    Fall 1:
+        Ausgeben (zahl1 + zahl2)
+    Fall 2: 
+        Ausgeben (zahl1 / zahl2)
+    Fall 3: 
+        Ausgeben (zahl1 % zahl2)
+    Fall 4:
+        
+    Sonst:
+        Ausgeben "Bist du dumm?"
+Ende

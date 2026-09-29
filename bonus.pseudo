@@ -1,0 +1,19 @@
+# double umsatz, bonus
+
+Ausgeben "Bitte Umsatz eingeben!"
+Eingeben umsatz
+
+umsatz = Gleitkommazahl(umsatz)
+
+Wenn umsatz <= 10000 Dann:
+    bonus = 100
+Sonst Wenn umsatz <= 20000 Dann:
+    bonus = 200
+Sonst Wenn umsatz <= 30000 Dann:
+    bonus = 300
+Sonst: 
+    bonus = 500
+Ende
+
+Ausgeben "Bonus = ", bonus
+

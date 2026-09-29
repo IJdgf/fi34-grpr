@@ -1,0 +1,16 @@
+
+# string eingabe = "f"
+Ausgeben "Wählen Sie: \nn - Norden \ns - Süden \no - Osten \nw - Western"
+Eingeben eingabe
+
+Wenn eingabe == "n" Dann:
+    Ausgeben "Norden"
+Sonst Wenn eingabe == "s" Dann:
+    Ausgeben "Süden"
+Sonst Wenn eingabe == "o" Dann:
+    Ausgeben "Osten"
+Sonst Wenn eingabe == "w" Dann:
+    Ausgeben "Westen"
+Sonst:
+    Ausgeben "Falsch Eingabe"
+Ende

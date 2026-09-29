@@ -1,0 +1,10 @@
+int a, b 
+Ausgeben "Bitte eine ganze Zahl eingeben!"
+Eingeben a 
+Ausgeben "Bitte noch eine ganze Zahl eingeben!"
+Eingeben b 
+Wenn (a > b):
+    Ausgeben "a > b"
+Sonst:
+    Ausgeben "b >= a"
+Ende

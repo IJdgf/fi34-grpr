@@ -1,0 +1,33 @@
+double grundgehalt = 3000, umsatz = 0, bonus = 0
+
+Ausgeben "Bitte Umsatz eingeben: "
+Eingeben umsatz
+
+# Wenn umsatz > 10000 Dann:
+#     bonus = 100
+# Ende
+
+# Wenn umsatz > 30000 Dann:
+#     bonus = 200
+# Ende
+
+# Wenn umsatz > 50000 Dann:
+#     bonus = 500
+# Ende
+
+# Wenn umsatz > 100000 Dann:
+#     bonus = 1000
+# Ende
+
+Wenn umsatz > 100000 Dann:
+    bonus = 1000
+Sonst Wenn umsatz > 50000 Dann:
+    bonus = 500
+Sonst Wenn umsatz > 30000 Dann:
+    bonus = 200
+Sonst Wenn umsatz > 10000 Dann:
+    bonus = 100
+Ende
+
+Ausgeben grundgehalt + bonus
+
