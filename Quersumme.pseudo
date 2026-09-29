@@ -12,3 +12,30 @@ Solange zahl > 0:
 Ende
 
 Ausgeben erg
+
+
+# Iterierte QS:
+
+Funktion querSummeBerechnen(int zahl) -> int:
+    int erg = 0
+    Solange zahl > 0:
+        erg += zahl%10  # erg = erg + zahl%10
+        zahl = zahl / 10
+    Ende
+    Zurückgeben erg     
+Ende
+
+int zahl = 0
+Ausgeben "Bitte eine Ganzzahl eingeben!"
+Eingeben zahl
+
+Wenn zahl < 0:
+    zahl = zahl*(-1)
+Ende
+
+solange(zahl >= 10):
+    zahl = querSummeBerechnen(zahl)
+Ende
+
+Ausgeben zahl
+
