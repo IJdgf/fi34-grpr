@@ -23,7 +23,6 @@ Funktion querSummeBerechnen(int zahl) -> int:
         zahl = zahl / 10
     Ende
     Zurückgeben erg     
-Ende
 
 int zahl = 0
 Ausgeben "Bitte eine Ganzzahl eingeben!"
