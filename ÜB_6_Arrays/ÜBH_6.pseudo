@@ -1,0 +1,55 @@
+# Übung 1
+double[] doubleArray = {23, 5, 46, 52, 18, 43.2}
+
+# Übung 2
+String[] barry = Array mit 5 Feldern
+Für (int i = 0; i < barry.länge; i++):   # Zähle i von 0 bis barry.länge
+    Ausgeben "Bitte das " + (i+1) + ". Element über Tastatur eingeben:"
+    Eingeben barry[i]
+Ende
+
+Für (int i = 0; i < barry.länge; i++):   # Zähle i von 0 bis barry.länge
+    Ausgeben barry[i]
+Ende
+
+# Übung 3
+String[] harry = Array mit 5 Feldern
+Für (int i = 0; i < harry.länge; i++):   # Zähle i von 0 bis barry.länge
+    Ausgeben "Bitte das " + (i+1) + ". Element über Tastatur eingeben:"
+    Eingeben harry[i]
+Ende
+
+Für (int i = harry.länge-1; i >= 0; i--):
+    Ausgeben harry[i]
+Ende
+
+# Übung 4
+
+int[] harry = Array mit 5 Feldern
+Für (int i = 0; i < harry.länge; i++):
+    Ausgeben "Bitte das " + (i+1) + ". Element über Tastatur eingeben:"
+    Eingeben harry[i]
+Ende
+
+int c
+Für (int i = 0; i < harry.länge / 2; i++):
+    c = harry[i]
+    harry[i] = harry[harry.länge - 1 - i]
+    harry[harry.länge - 1 - i] = c
+Ende
+
+# int[] hermione = Array mit 5 Feldern
+# Für (int i = 0; i < harry.länge; i++):
+#     hermione[harry.länge - 1 - i] = harry[i]
+# Ende
+
+
+# Übung 5
+int [] karr = {-1, 2, 3, -4, -5}
+Zähle i von 0 bis karr.länge-1:
+    Wenn ((i+1) % 2 == 0):
+        karr[i] = -1 * karr[i]
+    Ende
+Ende
+
+
