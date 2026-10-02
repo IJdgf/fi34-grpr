@@ -1,0 +1,18 @@
+int n, int typ
+Ausgeben "Bitte eine positive Ganzzahl eingeben"
+Eingeben n 
+Für (int i = 1; i <= n*n; i++):
+    typ = 0
+    Wenn (i % 2 == 0):
+        typ = typ + 2
+    Ende 
+
+    Wenn (i % 3 == 0)
+        typ = typ + 3
+    Ende 
+    
+    Ausgeben i + "(" + typ + ")" 
+    Wenn i % n == 0:
+        Ausgeben "\n"
+    Ende
+Ende

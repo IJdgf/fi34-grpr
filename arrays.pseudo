@@ -1,0 +1,25 @@
+int[] temperatur = {25,27,29,19,17,23,22}
+Ausgeben temperatur[3]
+Ausgeben temperatur.länge
+
+int minn = temperatur[0], maxx = temperatur[0]
+Für(int i = 1; i < temperatur.länge; i++):
+    Wenn (minn > temperatur[i]):
+        minn = temperatur[i]
+    Ende
+    Wenn (maxx < temperatur[i]):
+        maxx = temperatur[i]
+    Ende
+Ende
+Ausgeben minn
+Ausgeben maxx
+
+int summe = 0
+Für(int i = 0; i < temperatur.länge; i++):
+    summe += temperatur[i]
+Ende
+Ausgeben summe
+Ausgabe summe / temperatur.länge
+
+
+

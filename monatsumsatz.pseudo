@@ -1,0 +1,29 @@
+double[] umsaetze = Array mit 12 Felder
+double jUms = 0, qUms = 0
+String[] monaten = {
+    "Januar", "Februar", "März", 
+    "April", "Mai", "Juni", 
+    "Juli", "August", "September",
+    "Oktober", "November", "Dezember"
+}
+
+Für (int i = 0; i < 12 ; i++):
+    Ausgeben "Bitte den Umsatz von Monat " + monaten[i] + "eingeben: "
+    Eingeben umsaetze[i]
+Ende
+
+Für (int i = 0; i < 12 ; i++):
+    Ausgeben "Der Umsatz von Monat " + monaten[i] + " ist: " + umsaetze[i]
+    
+    qUms += umsaetze[i]
+    Wenn ((i+1) % 3 == 0 ):
+        Ausgeben "Quartal " + ((i+1) / 3) + " Quartalumsatz: " + qUms
+        jUms += qUms
+        qUms = 0
+    Ende
+Ende
+
+Ausgeben "Jahresumsatz: " + jUms
+Ausgeben "Durchschnittlicher Monatsumsatz: " + jUms / umsaetze.laenge
+
+

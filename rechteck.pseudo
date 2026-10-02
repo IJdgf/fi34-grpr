@@ -1,0 +1,22 @@
+int w = 0, h = 0
+String s1 = "", s2 = ""
+Ausgeben: "Bitte die Breite eingeben: "
+Eingeben w
+Ausgeben: "Bitte die Höhe eingeben: "
+Eingeben h
+
+Für (int i = 0; i < w; i++):
+    s1 = s1 + "*"
+Ende
+
+s2 = "*"
+Für (int i = 0; i < w - 2; i++):
+    s2 = s2 + " "
+Ende
+ s2 += "*"
+
+Ausgeben s1
+Für(int i = 0; i < h - 2; i++):
+    Ausgeben s2
+Ende
+Ausgeben s1

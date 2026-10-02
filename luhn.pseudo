@@ -1,0 +1,29 @@
+int zahl = 0, erg = 0, i = 1, temp = 0
+
+Ausgeben "Bitte eine ganzzahl eingeben"
+Eingeben zahl 
+
+Wenn zahl < 0:
+    zahl *= -1        # zahl = -1 * zahl
+Ende
+
+Solange (zahl > 0):
+    
+    temp = zahl % 10
+    Wenn (i % 2 == 0):
+        temp = temp * 2
+        Wenn (temp > 9):
+            temp = temp - 9
+        Ende
+    Ende
+    erg = erg + temp
+    zahl = zahl / 10
+    i++
+Ende
+
+Ausgeben erg
+
+Wenn erg % 10 == 0:
+    Ausgeben: "Passt schon"
+Sonst:
+    Ausgeben: "Passt nicht"
