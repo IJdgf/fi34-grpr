@@ -1,0 +1,52 @@
+#SelectionSort
+
+int[] arr = {5, 3, 2, 1, 2, 9, 4}
+Für(int i = 0; i < arr.länge - 1; i++):  # Zähle int i von 0 bis arr.länge - 2
+    int minInd = i
+    Für(int j = i + 1; j < arr.länge; j++):  # Zähle int j von 0 bis arr.länge - 1
+        Wenn (arr[j] < arr[minInd]):
+            minInd = j
+        Ende
+    Ende
+    Wenn (minInd != i):
+        int temp = arr[minInd]
+        arr[minInd] = arr[i]
+        arr[i] = temp
+    Ende
+Ende
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Für(int i = 0; i < arr.länge; i++):
+    int minInd = i 
+    Für (int j = i + 1; j < arr.länge; j++):
+        Wenn(arr[minInd] > arr[j]):
+            minInd = j
+        Ende
+    Ende
+    Wenn (minINd != i):
+        int temp = arr[minInd]
+        arr[minInd] = arr[i]
+        arr[i] = temp
+    Ende
+Ende
