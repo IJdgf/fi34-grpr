@@ -1,0 +1,14 @@
+int[] arr = {3, 7, 2, 12, 25, -4, 30, 42}
+
+int suchen = 42
+int index = -1
+Für (int i = 0; i < arr.länge; i++):
+    Wenn (arr[i] == suchen):
+        index = i
+        Brechen 
+    Ende
+Ende
+Wenn (index >= 0):
+    Ausgeben "Index = " + index
+Sonst 
+    Ausgeben "Nicht gefunden"
