@@ -1,0 +1,21 @@
+int[] arr = {3, 7, 12, 25, 30, 42}
+int suche = 42, index = -1
+int link = 0, recht = arr.länge - 1, mitte
+Solange (link <= recht):
+    mitte = (recht + link) / 2
+    Wenn (arr[mitte] == suche):
+        index = mitte
+        Brechen
+    Sonst Wenn (arr[mitte] < suche):
+        link = mitte + 1
+    Sonst:
+        recht = mitte - 1
+    Ende
+Ende
+
+Wenn (index >= 0):
+    Ausgeben "Index: " + index
+Sonst:
+    Ausgeben "Nicht gefunden"
+
+
