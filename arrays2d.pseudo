@@ -1,0 +1,33 @@
+String [][] arr = Array [4][4]   
+Für (int i = 0; i < arr.länge; i++):
+    Für (int j = 0; j < arr[i].länge; j++):
+        arr[i][j] = "" + i + j
+    Ende
+Ende
+
+int [][] arr = Array [4][4]
+Für (int i = 0; i < arr.länge; i++):
+    Für (int j = 0; j < arr[i].länge; j++):
+        arr[i][j] = i*10 + j
+    Ende
+Ende
+
+#Einmaleins
+
+int[][] arr = Array [10][10]
+
+Für (int i = 0; i < arr.länge; i++):
+    Für (int j = 0; j < arr[i].länge; j++):
+         (i+1)*(j+1)
+    Ende
+Ende
+
+Für (int i = 0; i < arr.länge; i++):
+    Für (int j = 0; j < arr[i].länge; j++):
+         Ausgeben arr[i][j] + " "
+    Ende
+    Ausgeben "\n"
+Ende
+
+
+    

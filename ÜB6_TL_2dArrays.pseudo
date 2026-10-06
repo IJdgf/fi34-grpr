@@ -1,0 +1,54 @@
+# 1
+String[][] arr = {{"TNnr", "GRDB", "SQLP", "GRPR", "JAV1"},
+{"01", "98", "54", "87", "76"}, {"02", "77", "87", "66", "99"}}
+
+Für(int i = 0; i < arr.länge; i++):
+    Für(int j = 0; j < arr[i].länge; j++):
+        Ausgeben arr[i][j] + " "
+    Ende
+    Ausgeben "\n"
+Ende
+
+# 2
+int[][] zahlen = {{17, 4, 21, 6, 0}, {23, 7, 8, 10, 0}, 
+{2, 4, 1, 88, 0}, {2, 9, 13, 11, 0}}
+
+Für (int i = 0; i < zahlen.länge; i++):
+    int summe = 0
+    Für (int j = 0; j < zahlen[i].länge-1; j++):
+        summe += zahlen[i][j]
+    Ende
+    zahlen[i][zahlen[i].länge-1] = summe
+Ende
+
+Für (int i = 0; i < zahlen.länge; i++):
+    Für (int j = 0; j < zahlen[i].länge; j++):
+        Ausgeben zahlen[i][j] + " "
+    Ende
+    Ausgeben "\n"
+Ende
+
+# 3
+int[][] zahlen = {{17, 4, 21, 6}, {23, 7, 8, 10}}
+
+int [][] zahlen2 = Array[zahlen.länge][zahlen[0].länge]
+
+Für(int i = 0; i < zahlen.länge; i++):
+    Für (int j = 0; j < zahlen[i].länge; j++):
+        zahlen2[i][j] = zahlen[i][j]
+    Ende
+Ende
+
+Für (int i = 0; i < zahlen.länge; i++):
+    Für (int j = 0; j < zahlen[i].länge; j++):
+        Ausgeben zahlen[i][j] + " "
+    Ende
+    Ausgeben "\n"
+Ende
+
+Für (int i = 0; i < zahlen2.länge; i++):
+    Für (int j = 0; j < zahlen2[i].länge; j++):
+        Ausgeben zahlen2[i][j] + " "
+    Ende
+    Ausgeben "\n"
+Ende

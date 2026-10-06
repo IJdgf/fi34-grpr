@@ -1,0 +1,66 @@
+double[][] umsatz = Array [5][12]
+
+Für (int i = 0; i < umsatz.länge; i++):
+    Ausgeben "Filiale " + (i+1) + ":"
+    Für (int j = 0; j < umsatz[i].länge; j++):
+        Ausgeben: "Bitte den Umsatz für den Monat " + (j + 1) + " eingeben:"
+        Eingeben umsatz[i][j]
+    Ende 
+Ende
+
+double jUmsAlle = 0
+Für (int i = 0; i < umsatz.länge; i++):
+    double jUms = 0
+    Für (int j = 0; j < umsatz[i].länge; j++):
+        jUms = jUms + umsatz[i][j]
+    Ende 
+    Ausgeben "Filiale " + (i+1) + " Jahresumsatz: " + jUms
+    Ausgeben "Durchschnittlich: " + jUms / 12
+    jUmsAlle += jUms
+Ende
+Ausgeben "Jahresumsatz alle Filiale: " + jUmsAlle
+
+Für (int i = 0; i < 12; i++):
+    double mUmsFiliale = 0
+    Für (int j = 0; j < umsatz.länge; j++):
+        mUmsFiliale = mUmsFiliale + umsatz[j][i]
+    Ende
+    Ausgeben "Monatsumsatz für Monat " + (i+1) + "aller Filialen: " + mUmsFiliale
+    Ausgeben "Durschnittlich im Monat " + (i+1) + ": " + mUmsFiliale / 5
+Ende
+
+double maxUmsatz = umsatz[0][0]
+int maxFil = 0, maxMon = 0
+double minUmsatz = umsatz[0][0]
+int minFil = 0, minMon = 0
+Für (int i = 0; i < umsatz.länge; i++):
+    Für (int j = 0; j < umsatz[i].länge; j++):
+        Wenn (umsatz[i][j] > maxUmsatz):
+            maxUmsatz = umsatz[i][j]
+            maxFil = i 
+            maxMon = j
+        Ende
+        Wenn (umsatz[i][j] < minUmsatz):
+            minUmsatz = umsatz[i][j]
+            minFil = i
+            minMon = j
+        Ende
+    Ende
+Ende
+
+double vergleich = 4000
+int[] filMon = {-1, -1} # // 0 - Filiale, 1 - Monat
+Für(int i = 0; i < umsatz.länge; i++):
+    Für(int j = 0; j < umsatz[i].länge; j++):
+        Wenn(umsatz[i][j] == vergleich):
+            filMon[0] = i 
+            filMon[1] = j
+            Ausgeben "Monat " + (filMon[1] + 1) + ", Filiale " + (filMon[0] + 1)
+        Ende
+    Ende
+Ende
+Wenn (filMon[0] < 0):
+    Ausgeben "Nicht gefunden"
+Ende
+
+    
