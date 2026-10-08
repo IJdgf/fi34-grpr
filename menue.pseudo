@@ -2,7 +2,7 @@ int zahl1, zahl2, wahl
 
 Ausgeben "Bitte die Zahl 1 eingeben: "
 Eingeben zahl1
-Ausgeben "Bitte die Zahl 1 eingeben: "
+Ausgeben "Bitte die Zahl 2 eingeben: "
 Eingeben zahl2
 
 Ausgeben "Bitte wählen: \n1 - Summe, \n2 - Division, 
